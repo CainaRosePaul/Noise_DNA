@@ -1,0 +1,22 @@
+Performance on Test Set:
+              precision    recall  f1-score   support
+
+           0       0.63      0.65      0.64     15936
+           1       0.64      0.62      0.63     15937
+
+    accuracy                           0.63     31873
+   macro avg       0.63      0.63      0.63     31873
+weighted avg       0.63      0.63      0.63     31873
+Accuracy: 0.63
+
+Performance on Noise Test Set:
+              precision    recall  f1-score   support
+
+           0       0.55      0.65      0.60     15936
+           1       0.58      0.48      0.52     15937
+
+    accuracy                           0.56     31873
+   macro avg       0.56      0.56      0.56     31873
+weighted avg       0.56      0.56      0.56     31873
+Accuracy: 0.56
+

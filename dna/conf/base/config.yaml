@@ -1,0 +1,18 @@
+dataset:
+  input_file: "6mA_A.thaliana.csv"          # Make sure this file is in the correct path
+  train_set_output: "train_set.csv"
+  test_set_output: "test_set.csv"
+  noisy_test_set_output: "combined_test_set.csv"
+  art_fasta: "test/positive_sequences_test.art.fasta"
+  art_output: "test/test_noisy"
+
+art_simulator:
+  executable_path: "C:/Users/caina/Downloads/artbinmountrainier2016.06.05win64/art_bin_MountRainier/art_illumina.exe"
+  read_length: 41
+  flowcell_type: 1
+
+model:
+  type: "Naive Bayes"                         
+  feature_extraction:
+    method: "k-mer"                          
+    ngram_range: [3, 3]                      
